@@ -296,9 +296,9 @@ COPY public.devices_catalog (id, category, description, warranty_months) FROM st
 --
 
 COPY public.employees (id, first_name, last_name, middle_name, login, password, "position", phone, email, created_at, notes) FROM stdin;
-1	Алексей	Смирнов	Игоревич	asmirnov	123456	Приёмщик	+37129200011	a.smirnov@workshop.com	2024-06-10 00:00:00	Работает утром
-2	Ольга	Кузнецова	Петровна	okuznecov	654321	Мастер	+37129200022	o.kuznecov@workshop.com	2024-06-12 00:00:00	\N
-3	Петр	Новиков	Дмитриевич	pnovikov	123456	Администратор	+37129200033	\N	2024-06-15 00:00:00	Админ
+1	Алексей	Смирнов	Игоревич	asmirnov	$2y$12$Ox/FC.6VSAF5Zm4FdyvtyuPYTYaD6fJEgZpD0LXDjBpic72iLq2W.	Приёмщик	+37129200011	a.smirnov@workshop.com	2024-06-10 00:00:00	Работает утром
+2	Ольга	Кузнецова	Петровна	okuznecov	$2y$12$Ox/FC.6VSAF5Zm4FdyvtyuPYTYaD6fJEgZpD0LXDjBpic72iLq2W.	Мастер	+37129200022	o.kuznecov@workshop.com	2024-06-12 00:00:00	\N
+3	Петр	Новиков	Дмитриевич	pnovikov	$2y$12$Ox/FC.6VSAF5Zm4FdyvtyuPYTYaD6fJEgZpD0LXDjBpic72iLq2W.	Администратор	+37129200033	\N	2024-06-15 00:00:00	Админ
 \.
 
 
